@@ -90,3 +90,29 @@ inspec supermarket exec dev-sec/nginx-baseline -t ssh://root:password@target
 gst
 cd
 exit
+cd /root/
+grep "^umask" /etc/bash.bashrc 
+grep "^umask" /etc/profile
+sshpass -p 'password' ssh -o StrictHostKeyChecking=no root@target 'grep "^umask" /etc/bash.bashrc'
+exit
+exit
+cd /root/
+sshpass -p 'password' ssh -o StrictHostKeyChecking=no root@target 'grep "^umask" /etc/profile'
+echo $?
+inspec init profile cis-ubuntu-16.04.lts
+ll
+pwd
+ls -a
+tree 
+cd cis-ubuntu-16.04.lts/
+tree 
+rm controls/example.rb 
+tree
+vi controls/cis-ubuntu-16.04-lts-5.4.rb
+cd ..
+inspec check cis-ubuntu-16.04.lts
+inspec exec cis-ubuntu-16.04.lts -t ssh://root:password@target
+vi cis-ubuntu-16.04.lts/controls/cis-ubuntu-16.04-lts-5.4.rb 
+inspec exec cis-ubuntu-16.04.lts -t ssh://root:password@target
+ext
+exit

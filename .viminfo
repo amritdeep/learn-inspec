@@ -26,18 +26,21 @@
 	 # its('modules') { should include 'mail_ssl' }
 
 # File marks:
-'0  6  12  ~/my_nginx/files/params.yml
-'1  9  32  ~/my_nginx/controls/nginx_example.rb
-'2  17  48  ~/my_nginx/controls/nginx_example.rb
-'3  30  3  ~/my_nginx/controls/nginx_example.rb
-'4  39  33  ~/my_nginx/controls/nginx_example.rb
-'5  29  4  ~/my_nginx/controls/nginx_example.rb
-'6  46  0  ~/my_nginx/controls/nginx_example.rb
-'7  5  10  ~/my_nginx/files/params.yml
-'8  50  28  ~/my_nginx/controls/example.rb
-'9  53  42  ~/my_nginx/controls/example.rb
+'0  17  31  ~/cis-ubuntu-16.04.lts/controls/cis-ubuntu-16.04-lts-5.4.rb
+'1  9  42  ~/cis-ubuntu-16.04.lts/controls/cis-ubuntu-16.04-lts-5.4.rb
+'2  6  12  ~/my_nginx/files/params.yml
+'3  9  32  ~/my_nginx/controls/nginx_example.rb
+'4  17  48  ~/my_nginx/controls/nginx_example.rb
+'5  30  3  ~/my_nginx/controls/nginx_example.rb
+'6  39  33  ~/my_nginx/controls/nginx_example.rb
+'7  29  4  ~/my_nginx/controls/nginx_example.rb
+'8  46  0  ~/my_nginx/controls/nginx_example.rb
+'9  5  10  ~/my_nginx/files/params.yml
 
 # Jumplist (newest first):
+-'  17  31  ~/cis-ubuntu-16.04.lts/controls/cis-ubuntu-16.04-lts-5.4.rb
+-'  1  0  ~/cis-ubuntu-16.04.lts/controls/cis-ubuntu-16.04-lts-5.4.rb
+-'  9  42  ~/cis-ubuntu-16.04.lts/controls/cis-ubuntu-16.04-lts-5.4.rb
 -'  6  12  ~/my_nginx/files/params.yml
 -'  1  0  ~/my_nginx/files/params.yml
 -'  9  32  ~/my_nginx/controls/nginx_example.rb
@@ -126,8 +129,38 @@
 -'  53  42  ~/my_nginx/controls/example.rb
 -'  39  42  ~/my_nginx/controls/example.rb
 -'  27  39  ~/my_nginx/controls/example.rb
+-'  6  12  ~/my_nginx/files/params.yml
+-'  1  0  ~/my_nginx/files/params.yml
+-'  9  32  ~/my_nginx/controls/nginx_example.rb
+-'  1  0  ~/my_nginx/controls/nginx_example.rb
+-'  17  48  ~/my_nginx/controls/nginx_example.rb
+-'  30  3  ~/my_nginx/controls/nginx_example.rb
+-'  39  33  ~/my_nginx/controls/nginx_example.rb
 
 # History of marks within files (newest to oldest):
+
+> ~/cis-ubuntu-16.04.lts/controls/cis-ubuntu-16.04-lts-5.4.rb
+	"	17	31
+	^	17	32
+	.	17	31
+	+	1	37
+	+	11	2
+	+	2	11
+	+	3	55
+	+	4	79
+	+	5	37
+	+	7	3
+	+	6	42
+	+	8	33
+	+	10	4
+	+	11	0
+	+	9	42
+	+	13	28
+	+	19	2
+	+	15	49
+	+	16	33
+	+	18	3
+	+	17	31
 
 > ~/my_nginx/files/params.yml
 	"	6	12
